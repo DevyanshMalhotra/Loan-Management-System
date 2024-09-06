@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Loan Application</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" th:href="@{/css/Login.css}" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" th:href="@{/}">
+        <img
+          th:src="@{/images/loanconnect-logo.png}"
+          style="height: 2.6rem; width: 10rem"
+          alt="logo"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" th:href="@{/AboutUs}">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" th:href="@{/ContactUs}">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" th:href="@{/Login}">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" th:href="@{/Register}">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" th:href="@{/AdminLogin}">Admin</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="mb-4">About Us</h1>
+          <p>
+            At <span class="text-primary">Lend Leap</span>, we are committed to
+            providing affordable loans to help you achieve your financial goals.
+            Our mission is to empower individuals and families by offering the
+            funding they need to live the life they want.
+          </p>
+
+          <h1 class="mb-4">Our History</h1>
+          <p>
+            Founded in 2023, <span class="text-primary">Lend Leap</span> set out
+            to offer fair and transparent loans to those in need. Since then, we
+            have proudly assisted thousands of individuals and families in
+            realizing their dreams.
+          </p>
+
+          <h1 class="mb-4">Our Loans</h1>
+          <p>
+            We offer a variety of loan options to cater to your unique needs,
+            including personal loans, auto loans, and home loans. Our loans
+            feature competitive interest rates and flexible repayment options
+            designed with your convenience in mind.
+          </p>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+  </body>
+</html>

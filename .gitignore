@@ -1,0 +1,19 @@
+Loan_Application/target/
+
+Loan_Application/.idea/
+
+Loan_Application/mvnw
+Loan_Application/mvnw.cmd
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Optional: Ignore SQL file if you don’t want it in the repo
+LoanApp.sql
