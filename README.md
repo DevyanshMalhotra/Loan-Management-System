@@ -1,6 +1,6 @@
 # Loan-Management-System
 
-The application will start, and you can access it at `http://localhost:8080`.
+In a new terminal, enter command: ` mvn spring-boot:run` and application will start, and you can access it at `http://localhost:8080`.
 
 
 
@@ -21,6 +21,6 @@ As an admin, you can log in using the admin credentials and approve/reject user 
 
 ## Technologies Used
 
-- Spring Boot: Java-based framework for building web applications.
-- MySQL: Database to store application data.
-- Maven: Dependency management and build tool.
+- `Spring Boot`
+- `MySQL`
+- `Maven`
