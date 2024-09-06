@@ -15,7 +15,7 @@ The application will start, and you can access it at `http://localhost:8080`.
 As an admin, you can log in using the admin credentials and approve/reject user loan applications.
 
 ```
-   email : admin@example.com
+   email : admin@test.com
    password : adminpassword
 ```
 
